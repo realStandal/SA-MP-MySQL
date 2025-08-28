@@ -3,23 +3,23 @@
     "repo": "SA-MP-MySQL",
     "resources": [
         {
-            "name": "^mysql-(.*).tar.gz$",
+            "name": "^mysql-(.*)\\.tar\\.gz$",
             "platform": "linux",
             "archive": true,
-            "includes": ["mysql-(.*)/pawno/include"],
+            "includes": ["pawno/include"],
             "plugins": [
-                "mysql-(.*)/plugins/mysql.so",
-                "mysql-(.*)/plugins/mysql_static.so"
+                "plugins/mysql.so",
+                "plugins/mysql_static.so"
             ]
         },
         {
-            "name": "^mysql-(.*)-win32.zip$",
+            "name": "^mysql-(.*)-win32\\.zip$",
             "platform": "windows",
             "archive": true,
-            "includes": ["mysql-(.*)-win32\/pawno\/include"],
-            "plugins": ["mysql-(.*)-win32\/plugins\/mysql.dll"],
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/mysql.dll"],
             "files": {
-                "mysql-(.*)-win32\/libmariadb.dll": "libmariadb.dll"
+                "libmariadb.dll": "libmariadb.dll"
             }
         }
     ],

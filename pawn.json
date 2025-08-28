@@ -16,10 +16,10 @@
             "name": "^mysql-(.*)-win32.zip$",
             "platform": "windows",
             "archive": true,
-            "includes": ["mysql-(.*)-win32/pawno/include"],
-            "plugins": ["mysql-(.*)-win32/plugins/mysql.dll"],
+            "includes": ["mysql-(.*)-win32\\/pawno\\/include"],
+            "plugins": ["mysql-(.*)-win32\\/plugins\\/mysql.dll"],
             "files": {
-                "mysql-(.*)-win32/libmariadb.dll": "libmariadb.dll"
+                "mysql-(.*)-win32\\/libmariadb.dll": "libmariadb.dll"
             }
         }
     ],

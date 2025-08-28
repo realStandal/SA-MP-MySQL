@@ -3,7 +3,7 @@
     "repo": "SA-MP-MySQL",
     "resources": [
         {
-            "name": "^mysql-(.*)\\.tar\\.gz$",
+            "name": "^mysql-(.*).tar.gz$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "name": "^mysql-(.*)-win32\\.zip$",
+            "name": "^mysql-(.*)-win32.zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
